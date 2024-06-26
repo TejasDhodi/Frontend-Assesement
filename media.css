@@ -188,3 +188,101 @@
     }
 
 }
+
+@media screen and (max-width:601px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    /* FAQ Section */
+    .question {
+        width: 100%;
+    } 
+    
+    .active .answer {
+        width: 80%;
+    }
+    
+    .active .answer p {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #nav2 .searchBar {
+        padding: 0.5rem;
+    }
+    
+    #nav2 {
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+    
+    /* Hero Section */
+    
+    .heroTempNav h3 {
+        font-size: 1rem;
+    }
+    
+    .heroDescription {
+        text-align: center;
+    }
+    
+    .heroDescription p {
+        width: 100%;
+    }
+    
+    .hero .heroBtn {
+        text-align: center;
+    }
+
+    /* Footer */ 
+    #finalFooter {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    #nav1 {
+        padding: 0 0.5rem;
+    }
+
+    /* Nav 2 */
+
+    #nav2 .searchBar {
+        width: 60%;
+    }
+
+    #nav2 .searchBar input {
+        width: 100%;
+    }
+
+    /* Hero */
+
+    .heroTempNav h3 {
+        font-size: 0.7rem;
+    }
+
+    .heroDescription h1 {
+        font-size: 2rem;
+    }
+
+    /* Contact  */
+
+    .contactTitles h1 {
+        font-size: 1.5rem;
+    }
+
+    .contactDetails {
+        gap: 1rem;
+    }
+
+    /* Footer */
+    .footerAbout {
+        width: 100%;
+    }
+}

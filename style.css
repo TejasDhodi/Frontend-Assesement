@@ -234,6 +234,7 @@ hr {
     margin: 2rem 0;
     width: 100%;
     color: #5a5d67;
+    text-align: justify;
 }
 
 .overviewImg img {
@@ -257,6 +258,10 @@ hr {
 
 .section {
     margin: 3rem 0;
+}
+
+.headDescription p {
+    text-align: justify;
 }
 
 .headDescription,
