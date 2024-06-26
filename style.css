@@ -398,6 +398,10 @@ hr {
     height: 100%;
 }
 
+#Stories .slideContent p {
+    text-align: justify;
+}
+
 .swiperFoot {
     display: flex;
     justify-content: left;

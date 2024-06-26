@@ -8,27 +8,37 @@
     }
 }
 
+@media screen and (max-width: 1240px) {
+    #Stories .slideContent p {
+        line-height: 1;
+    }
+}
+
 @media screen and (max-width: 1157px) {
     .nav1Ham {
         display: block;
         position: relative;
-        z-index: 100;
+        z-index: 2;
         color: red;
         font-size: 2rem;
     }
 
     .nav1Info {
-        position: absolute;
-        top: -100rem;
-        background: #fefefe;
-        width: 100%;
-        left: 0;
+        position: fixed;
         height: 100vh;
+        width: 100%;
+        top: -100rem;
+        left: 0;
+        background: #fefefe;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 3rem;
         transition: 300ms ease;
+        z-index: 1;
+    }
+
+    #navInfoContainer {
+        gap: 3rem;
     }
 
     .downNav1 {
@@ -36,8 +46,145 @@
     }
 
 
+    /* Nav 2 */
+    #nav2 {
+        padding: 0 4rem;
+        justify-content: space-between;
+    }
+
+    #nav2 .navItems {
+        position: fixed;
+        top: 0;
+        right: 100%;
+        width: 100vw;
+        height: 100vh;
+        background: #fefefe;
+        color: rgb(36, 1, 69);
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        z-index: 3;
+        transition: 300ms ease;
+    }
+
+    #nav2 .navItems li {
+        font-size: 1.5rem;
+    }
+
+    #nav2 .showNav2 {
+        right: 0;
+    }
+
+    .nav2Hamburger {
+        display: block;
+        position: relative;
+        z-index: 4;
+    }
+
+    .line {
+        height: 0.3rem;
+        width: 3rem;
+        background: #000000;
+        margin-bottom: 0.3rem;
+        transition: 300ms ease;
+    }
+
+    .showNav2 #line1 {
+        transform: rotateZ(45deg) translate(13px);
+        /* background-image: linear-gradient(to left, #010f2a 50%, #fff 50%); */
+    }
+
+    .showNav2 #line2 {
+        opacity: 0;
+    }
+
+    .showNav2 #line3 {
+        transform: rotateZ(-45deg) translate(13px);
+        /* background-image: linear-gradient(to left, #010f2a 50%, #fff 50%); */
+    }
+
+
     /* Page Nvigators */
     .pageNavigators {
         overflow-y: auto;
     }
+
+    /* Contact Form */
+    .contactForm {
+        width: 72vw;
+    }
+}
+
+@media screen and (max-width: 881px) {
+
+    hr {
+        border: none;
+        border-bottom: 3px dotted #107df7;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .sectionTitle {
+        text-align: center;
+    }
+
+
+    /* Page Navigators */
+    .pageNavigators {
+        gap: 0;
+    }
+
+    .pageNavigators .navigatorList a {
+        color: #5a5d67;
+        font-weight: bolder;
+        width: 10rem;
+        display: block;
+        /* background: antiquewhite; */
+        text-align: center;
+    }
+
+    .overviewSection {
+        flex-direction: column;
+    }
+
+    .overViewDetails,
+    .overviewImg {
+        width: 100%;
+    }
+
+    /* Eligibility Section */
+    #Eligibility {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    /* Contact Form */
+    .inputs input,
+    .inputs textarea {
+        border: none;
+        border-bottom: 1px solid;
+    }
+
+    /* Multi Section */
+
+    .headDescription,
+    .descOptions li {
+        width: 100%;
+        color: #5a5d67;
+    }
+
+    /* FAQ Section  */
+
+    #FAQs .faqContainer .sectionTitle {
+        padding-bottom: 2rem;
+        width: 100%;
+        border-bottom: none;
+    }
+
+
+    /* Footer */
+    #Links, #aboutLink {
+        flex-wrap: wrap;
+    }
+
 }
