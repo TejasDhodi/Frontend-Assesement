@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+}
+
+span {
+    color: red;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.main {
+    padding: 0 3.5%;
+}
+
+hr {
+    border: none;
+    border-bottom: 3px dotted #107df7;
+    margin: 0 3.5%;
+    width: 65%;
+}
+
+
+.multiSection {
+    margin: 2.5rem auto;
+}
+
+.sectionTitle h1 {
+    font-size: 2ren;
+}
+
+#nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+    padding: 0 2.5rem;
+}
+
+.nav1Ham {
+    display: none;
+}
+
+#nav1 #navBrand1 img {
+    height: 5rem;
+    width: 20rem;
+}
+
+#nav1 #navBrand2 img {
+    height: 4rem;
+}
+
+#navInfoContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+#navInfoContainer .navInfo {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+#navInfoContainer .navInfo .navInfoImg img {
+    height: 2.8rem;
+}
+
+#navInfoContainer .navInfo .navInfoTitles p {
+    color: gray;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+#nav2 {
+    background: #20aaf8;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav2Hamburger {
+    display: none;
+}
+
+#nav2 .navItems {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    color: #f1f1f1;
+}
+
+#nav2 .navItems li {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#nav2 .searchBar {
+    background: #107df7;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+#nav2 .searchBar label {
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#nav2 .searchBar input {
+    border: none;
+    background: #107df7;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+}
+
+#nav2 .searchBar input::placeholder {
+    color: #f1f1f1;
+
+}
+
+
+/* Hero Section */
+
+#heroSection {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('/Images/3d-male-figure-sprinting-pose-abstract-low-poly-background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.heroTempNav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.heroTempNav h3 {
+    color: #f1f1f1;
+}
+
+.heroDescription {
+    color: #f1f1f1;
+}
+
+.heroDescription h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.heroDescription p {
+    width: 67%;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+
+.heroBtn button {
+    padding: 0.7rem 2rem;
+    border: none;
+    background: #25affd;
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.mt_mb {
+    margin: 2rem 0;
+}
+
+/* Page Navigation Section */
+
+#inPageNavigation {
+    border-bottom: 1px solid gray;
+}
+
+.pageNavigators {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.pageNavigators .navigatorList {
+    padding: 1.5rem;
+}
+
+.pageNavigators .navigatorList:first-child {
+    border-bottom: 5px solid #20aaf8;
+}
+
+.pageNavigators .navigatorList a {
+    color: #5a5d67;
+    font-weight: bolder;
+}
+
+
+/* Overview Section */
+.overviewSection {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.overViewDetails,
+.overviewImg {
+    width: 50%;
+}
+
+.overViewDetails .sectionDescription p {
+    margin: 2rem 0;
+    width: 100%;
+    color: #5a5d67;
+}
+
+.overviewImg img {
+    height: 22rem;
+    width: 100%;
+}
+
+
+/* Multi Section */
+
+#Eligibility {
+    display: flex;
+    align-items: center;
+}
+
+#Eligibility .headDescription,
+#Eligibility .descOptions li {
+    width: 100%;
+    color: #5a5d67;
+}
+
+.section {
+    margin: 3rem 0;
+}
+
+.headDescription,
+.descOptions li {
+    width: 65%;
+    color: #5a5d67;
+}
+
+.sectionDescription,
+.headDescription,
+.descOptions {
+    margin: 2rem 0;
+}
+
+.section .sectionDescription .descOptions>.descListTitle ul {
+    margin: 1rem 0;
+    padding-left: 1rem;
+    line-height: 1.5
+}
+
+.section .sectionDescription .descOptions>.descListTitle ul li i {
+    color: #107df7;
+    margin-right: 1rem;
+}
+
+
+/* Accordian */
+
+#FAQs .faqContainer .sectionTitle {
+    border-bottom: 1px solid #5a5d67;
+    padding-bottom: 2rem;
+    width: 70%;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid #5a5d67;
+    padding: 1rem 0;
+    cursor: pointer;
+    width: 70%;
+}
+
+.accordian .question i {
+    color: #107df7;
+}
+
+.accordian .question .minus {
+    display: none;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    width: 65.5%;
+    padding: 1rem 0;
+    display: none;
+}
+
+.answer p {
+    font-size: 0.8rem;
+    padding-left: 2rem;
+    border-left: 2px solid #107df7;
+}
+
+.active .answer {
+    max-height: fit-content;
+    display: block;
+    margin-left: 2rem;
+    border-bottom: 1px solid #107df7;
+}
+
+.active .question .show {
+    display: none;
+}
+
+.active .question .minus {
+    display: block;
+}
+
+
+/* Stories Section */
+
+#Stories {
+    margin: 5rem 0;
+}
+
+#Stories .swiper,
+.mySwiper {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+#swiper-wrapper-15c06fe69d784d46 {
+    background-color: #107df7;
+}
+
+.swiper-slide-active {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideContent {
+    height: 21rem;
+    width: 22rem;
+    padding: 1rem;
+    border: 1px solid #a0a3aa;
+}
+
+
+.swiperHead {
+    display: flex;
+    align-items: center;
+}
+
+.swiperHead h3 {
+    text-align: left;
+    color: #010e1d;
+}
+
+.swiperHead img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.swiperImg {
+    width: 100%;
+    height: 10rem;
+    margin: 1.5rem auto;
+}
+
+.swiperImg iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.swiperFoot {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
+
+.patientImg {
+    height: 3rem;
+    width: 3rem;
+}
+
+.patientImg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+/* Doctors */
+
+#doctors {
+    background: #e9f2f7;
+    padding: 2rem 0;
+}
+
+#doctors .swiper,
+.mySwiper {
+    width: 80%;
+}
+
+.swiper-wrapper {
+    padding: 1rem 0;
+}
+
+#doctors .slideContent {
+    border: none;
+    box-shadow: 0 0 10px rgb(123, 123, 123);
+    background-color: #ffff;
+    border-radius: 0.3rem;
+}
+
+#doctors .slideContent .slideFrame {
+    height: 14rem;
+    background: #ffdde3;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.sectionTitle {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.sectionTitle p {
+    font-family: "Playwrite AU SA", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    color: #fa2147;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.slideTitles {
+    text-align: center;
+}
+
+.drName,
+.hospitalCity {
+    font-family: "Playwrite AU SA", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    color: #fa2147;
+    margin-bottom: 0.5rem;
+}
+
+.slideTitles p:nth-child(2) {
+    font-size: 1rem;
+    color: #010e1d;
+    margin: 0 0 0.5rem;
+    font-weight: bold;
+}
+
+.slideTitles p:nth-child(3) {
+    font-size: 0.8rem;
+    color: #5a5d67;
+    font-weight: bold;
+}
+
+.paginationCenter {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* Hospitals */
+
+#hospitals .swiper,
+.mySwiper {
+    width: 90%;
+}
+
+#hospitals .sectionTitle h1 span {
+    color: #20aaf8;
+}
+
+#hospitals .slideContent {
+    padding: 0;
+    height: 24rem;
+    border: 1px dotted #fa2147;
+}
+
+#hospitals .slideContent .hospitalImg {
+    height: 18.5rem;
+}
+
+#hospitals .slideContent .hospitalImg img {
+    width: 100%;
+    height: 100%;
+}
+
+#hospitals .slideContent .slideTitles {
+    padding: 1rem;
+}
+
+#hospitals .slideContent .slideTitles .hospitalCity {
+    font-family: "Playwrite AU SA", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    color: #fa2147;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+#hospitals .slideContent .slideTitles .hospitalName {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #010e1d;
+}
+
+.exploreOptions {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.exploreOptions p {
+    font-weight: bold;
+    color: #010e1d;
+}
+
+.exploreOptions p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Contact */
+
+#contact {
+    background: #25affd;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.contactTitles {
+    color: #e9f2f7;
+}
+
+.contactTitles h1 {
+    font-size: 2.1rem;
+    margin: 1rem 0;
+}
+
+.contactDetails {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+
+.contactDetails button {
+    padding: 0.5rem 2.5rem;
+    color: #e9f2f7;
+    background: #0183ce;
+    border: none;
+    font-weight: bold;
+}
+
+.contactDetails .line {
+    background: #e9f2f7;
+    height: 3rem;
+    width: 1px;
+}
+
+.contactDetails span {
+    color: #e9f2f7;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+
+/* First Footer */
+#firstFooter {
+    background: #011833f0;
+    color: #f1f1f1;
+}
+
+#firstFooter hr {
+    border: 1px solid #e9f2f7;
+    width: 100%;
+    margin: 0;
+}
+
+#Links {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+#Links .linkContainer h3 {
+    margin: 1rem 0;
+}
+
+#Links .linkContainer ul {
+   padding-left: 1rem;
+}
+
+#Links .linkContainer ul li {
+   color: #c0bfbf;
+   line-height: 1.5;
+   
+   /* margin-right: 0.3rem; */
+}
+
+#aboutLink {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.footerAbout {
+    width: 60%;
+    text-align: justify;
+}
+
+.footerAbout h3 {
+    margin-bottom: 1rem;
+}
+
+.footerAbout p {
+    line-height: 1.5;
+}
+
+.socialLinks, .socialLinks h3, .phone h3 {
+    margin-bottom: 1rem;
+}
+
+.socialLinks i {
+   margin-right: 0.5rem;
+}
+
+/* Final Footer */
+#finalFooter {
+    background: #20aaf8;
+    color: #e9f2f7;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3.5%;
+}
+
+.terms {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+
+
+/* Contact Form */
+.contactForm {
+    height: auto;
+    box-shadow: 0 0 15px ;
+    width: 53vw;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.formTitle {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.formTitle h2 {
+    font-family: "Playwrite AU SA", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    color: #107df7;
+}
+
+.inputs {
+    margin: 0.5rem;
+}
+
+.inputs input, .inputs textarea{
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+}
+
+ input::placeholder, textarea::placeholder {
+    color: gray;
+ }
+
+ .control button {
+    width: 100%;
+    color: #e9f2f7;
+    background-image: linear-gradient(to right, #0183ce, #95d8ff );
+    padding: 0.7rem ;
+    border: none;
+    border-radius: 0.2rem;
+ }

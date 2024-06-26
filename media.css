@@ -1,0 +1,43 @@
+@media screen and (max-width: 1309px) {
+    #nav1 #navBrand1 img {
+        width: 12rem;
+    }
+
+    #navInfoContainer {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .nav1Ham {
+        display: block;
+        position: relative;
+        z-index: 100;
+        color: red;
+        font-size: 2rem;
+    }
+
+    .nav1Info {
+        position: absolute;
+        top: -100rem;
+        background: #fefefe;
+        width: 100%;
+        left: 0;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        transition: 300ms ease;
+    }
+
+    .downNav1 {
+        top: 0;
+    }
+
+
+    /* Page Nvigators */
+    .pageNavigators {
+        overflow-y: auto;
+    }
+}
