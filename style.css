@@ -448,12 +448,12 @@ hr {
     margin-bottom: 3rem;
 }
 
-.sectionTitle {
+#doctors .sectionTitle {
     text-align: center;
     padding: 2rem 0;
 }
 
-.sectionTitle p {
+#doctors .sectionTitle p {
     font-family: "Playwrite AU SA", cursive;
     font-weight: bolder;
     font-style: normal;
@@ -499,6 +499,20 @@ hr {
 #hospitals .swiper,
 .mySwiper {
     width: 90%;
+}
+
+#hospitals .sectionTitle  {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#hospitals .sectionTitle p {
+    font-family: "Playwrite AU SA", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    color: #fa2147;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 #hospitals .sectionTitle h1 span {
