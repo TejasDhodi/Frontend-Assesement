@@ -54,6 +54,10 @@ var swiper = new Swiper(".mySwiper1", {
         slidesPerView: 2,
         spaceBetween: 20,
     },
+    1025: {
+      slidesPerView: 3,
+        spaceBetween: 20,
+    }
 },
   pagination: {
     el: ".swiper-pagination1",
@@ -73,6 +77,10 @@ var swiper = new Swiper(".mySwiper2", {
         slidesPerView: 2,
         spaceBetween: 20,
     },
+    1025: {
+      slidesPerView: 3,
+        spaceBetween: 20,
+    }
 },
   pagination: {
     el: ".swiper-pagination2",
